@@ -4,7 +4,7 @@ spring:
     - dev
 ---
 server:
-  port: 7001 #注册中心占用7001端口，冒号后面必须要有空格
+  port: 7004 #注册中心占用7001端口，冒号后面必须要有空格
 
 spring:
   profiles: dev
@@ -21,7 +21,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka/
 ---
 server:
-  port: 7001 #注册中心占用7001端口，冒号后面必须要有空格
+  port: 7004 #注册中心占用7001端口，冒号后面必须要有空格
 
 spring:
   profiles: test
